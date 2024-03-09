@@ -27,7 +27,7 @@ void test_assert_points_equals(void) {
 }
 
 int init(void) {
-    FILE* file = fopen("./exemple.bin", "r");
+    FILE* file = fopen("../../python/exemple.bin", "r");
     if(file == NULL) {
         return 1;
     }
