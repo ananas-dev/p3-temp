@@ -15,6 +15,9 @@ int k;
 int num_points;
 squared_distance_func_t squared_distance_function;
 
+point_t p1, p2, p3, p4, p5;
+point_t c1, c2, c3;
+
 int init_wrong_param_suite(void) {
     k = 3;
     num_points = 5;
