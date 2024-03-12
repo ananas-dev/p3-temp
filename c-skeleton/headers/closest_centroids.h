@@ -1,8 +1,15 @@
 #ifndef CLOSEST_CENTROIDS_H
 #define CLOSEST_CENTROIDS_H
 
+
+#include <stdint.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h>
+
 #include "point.h"
 #include "distance.h"
+
 
 /**
  * @brief Assign the index of the closest centroid to each point

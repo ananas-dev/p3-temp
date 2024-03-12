@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "CUnit/Basic.h"
+#include <CUnit/Basic.h>
+#include <CUnit/CUnit.h>
 
 #include "../headers/distance.h"
 #include "../headers/closest_centroids.h"
